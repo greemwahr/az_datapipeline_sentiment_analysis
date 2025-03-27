@@ -1,0 +1,32 @@
+# --- Terraform Core ---
+.terraform/*
+*.tfstate
+*.tfstate.*
+
+# --- Sensitive files ---
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# --- Terraform Plan Files ---
+*.plan
+
+# --- IDE / OS junk ---
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Terraform Provider Archives (sometimes manually downloaded) ---
+*.zip
+*.tar.gz
+
+# --- Miscellacneous ---
+output.md
